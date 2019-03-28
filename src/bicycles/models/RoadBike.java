@@ -16,9 +16,7 @@ public class RoadBike extends BicycleBase {
     }
 
     @Override
-    public BicycleType getBicycleType() {
-        return null;
-    }
+    public BicycleType getBicycleType() { return null; }
 
 
 }
