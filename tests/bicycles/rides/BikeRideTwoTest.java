@@ -1,20 +1,18 @@
-package bicycles.Rides;
+package bicycles.rides;
 
 import bicycles.models.RoadBike;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BikeRideOneTest {
+public class BikeRideTwoTest {
 
     @Test
-    public void BikeRide1(){
+    public void BikeRide2(){
         RoadBike bicycles = new RoadBike();
-        BikeRideOne bikeRide = new BikeRideOne(bicycles);
+        BikeRideTwo bikeRide = new BikeRideTwo(bicycles);
         bikeRide.ride();
-        assertEquals(bikeRide.getCurrentSpeed(),  18);
-
+        assertEquals(bikeRide.getCurrentSpeed(),  61);
 
     }
-
 }

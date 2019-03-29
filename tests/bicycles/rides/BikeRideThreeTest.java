@@ -1,4 +1,4 @@
-package bicycles.Rides;
+package bicycles.rides;
 
 import bicycles.models.RoadBike;
 import org.junit.jupiter.api.Test;

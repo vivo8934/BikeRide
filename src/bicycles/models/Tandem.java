@@ -3,7 +3,7 @@ package bicycles.models;
 import bicycles.BicycleBase;
 import bicycles.BicycleType;
 
-public class Tandem extends BicycleBase  {
+public class Tandem extends BicycleBase {
 
     @Override
     public void accelerate() {
