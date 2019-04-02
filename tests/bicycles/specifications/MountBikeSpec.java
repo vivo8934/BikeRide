@@ -1,6 +1,5 @@
 package bicycles.specifications;
 
-import bicycles.Bicycle;
 import bicycles.BicycleType;
 import org.junit.jupiter.api.Test;
 
@@ -12,9 +11,6 @@ public class MountBikeSpec {
     public void MountainBikeSpecification(){
 
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
-        Bicycle mountainBike = new BicycleFromSpec( mountainBikeSpec );
-
-
         assertEquals(mountainBikeSpec.getAccelerationSpeed(), 5);
         assertEquals(mountainBikeSpec.getBrakeSpeed(), 3);
     }

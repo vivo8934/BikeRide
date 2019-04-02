@@ -1,6 +1,5 @@
 package bicycles.specifications;
 
-import bicycles.Bicycle;
 import bicycles.BicycleType;
 import org.junit.jupiter.api.Test;
 
@@ -12,11 +11,7 @@ public class TandemSpec {
     public void TandemSpecification(){
 
         BicycleSpecification tandemspec = new BicycleSpecification(12, 7, BicycleType.Tandem);
-        Bicycle Tandemspecs = new BicycleFromSpec(tandemspec);
-
-
         assertEquals(tandemspec.getAccelerationSpeed(), 12);
-
         assertEquals(tandemspec.getBrakeSpeed(), 7);
 
     }

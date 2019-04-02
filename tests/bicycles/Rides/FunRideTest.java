@@ -54,7 +54,7 @@ public class FunRideTest {
         }
 
         @Test
-        public void Accept(){
+        public void AcceptingCertainBikes(){
             FunRide bikeMax = new FunRide(3);
             BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
             BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4, BicycleType.RoadBike);
