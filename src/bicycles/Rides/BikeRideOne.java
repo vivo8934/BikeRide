@@ -16,6 +16,8 @@ public class BikeRideOne implements BikeRide {
         this.bicycle.brake();
     }
 
+
+
     @Override
     public int getCurrentSpeed() {
         return this.bicycle.currentSpeed();
