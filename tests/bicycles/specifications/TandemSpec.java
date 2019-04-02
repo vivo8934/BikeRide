@@ -4,6 +4,8 @@ import bicycles.Bicycle;
 import bicycles.BicycleType;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class TandemSpec {
 
     @Test
@@ -13,9 +15,9 @@ public class TandemSpec {
         Bicycle Tandemspecs = new BicycleFromSpec(tandemspec);
 
 
-        System.out.println(tandemspec.getAccelerationSpeed());
+        assertEquals(tandemspec.getAccelerationSpeed(), 12);
 
-        System.out.println(tandemspec.getBrakeSpeed());
+        assertEquals(tandemspec.getBrakeSpeed(), 7);
 
     }
 }

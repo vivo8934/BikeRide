@@ -4,6 +4,8 @@ import bicycles.Bicycle;
 import bicycles.BicycleType;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class MountBikeSpec {
 
     @Test
@@ -13,7 +15,7 @@ public class MountBikeSpec {
         Bicycle mountainBike = new BicycleFromSpec( mountainBikeSpec );
 
 
-        System.out.println(mountainBikeSpec.getAccelerationSpeed());
-        System.out.println(mountainBikeSpec.getBrakeSpeed());
+        assertEquals(mountainBikeSpec.getAccelerationSpeed(), 5);
+        assertEquals(mountainBikeSpec.getBrakeSpeed(), 3);
     }
 }
